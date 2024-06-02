@@ -1,0 +1,15 @@
+name = Customizable Views Product Add To Cart Form
+description = Provides user configurable customizations to the Views product add to cart form.
+package = Commerce (contrib)
+dependencies[] = commerce_cart
+dependencies[] = views
+files[] = includes/views/handlers/commerce_custom_views_add_to_cart_handler_field_add_to_cart_form.inc
+core = 7.x
+version = 7.x-1.0
+
+; Information added by Drupal.org packaging script on 2014-06-29
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "commerce_custom_views_add_to_cart"
+datestamp = "1404065328"
+

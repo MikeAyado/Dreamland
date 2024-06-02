@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * @file
+ * Custom Views Product Add To Cart Form module.
+ */
+
+/**
+ * Implements hook_views_api().
+ */
+function commerce_custom_views_add_to_cart_views_api() {
+  return array(
+    'api' => 3,
+    'path' => drupal_get_path('module', 'commerce_custom_views_add_to_cart') . '/includes/views',
+  );
+}
